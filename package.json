@@ -1,5 +1,25 @@
 {
   "dependencies": {
-    "mongodb": "^4.8.1"
-  }
+    "express": "^4.18.1",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "friends-talk-spot",
+  "description": "#### This application is intended to be a platform hosting friends' thoughts and reactions. <br>",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlyMeHere/friends-talk-spot.git"
+  },
+  "author": "OnlyMeHere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OnlyMeHere/friends-talk-spot/issues"
+  },
+  "homepage": "https://github.com/OnlyMeHere/friends-talk-spot#readme"
 }
