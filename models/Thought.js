@@ -4,7 +4,7 @@ const { Schema, model } = require('mongoose');
 
 const thoughtsSchema = new Schema(
     {
-        thoughtText: {
+        thoughts: {
             type: String,
             required: true,
             minLength: 1,
@@ -30,6 +30,8 @@ postSchema
     .get(function () {
         return this.thoughts.CreatedAt;
     });
+
+
 
 // Intialize Thoughts model
 
